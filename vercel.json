@@ -1,0 +1,1 @@
+{"$schema":"https://openapi.vercel.sh/vercel.json","functions":{"api/[...path].js":{"maxDuration":60}},"rewrites":[{"destination":"/api/media/images/:file","source":"/images/:file"},{"destination":"/api/media/documents/:file","source":"/documents/:file"}]}
